@@ -1,0 +1,52 @@
+body{background-color: rgba(218, 219, 130, 0.418);}
+.back{background-color:black;color:white;padding:2px;
+text-align:center;marign:10px;opacity:0.7;}
+h1,h2{text-align: center;font-family: cursive;color:white;}
+div.gal{
+margin:5px;
+padding:5px;
+float:left;
+width:180px;
+border:1px solid black;
+position:relative;
+align-items: center;
+animation-name:moveleft;
+animation-duration:10s;
+margin-left:150px;
+margin-right: auto;}
+
+div.gal img{float:left;width:100%;height:150px;}
+
+div.gal:hover{border:1px solid blue;}
+
+div.desc{text-align:center;padding:10px;color:black;}
+
+@keyframes moveleft{
+from{left:-600px;opacity:0.1;}
+to{left:200px;opacity:1.0;}
+}
+
+div.gal2{column-count: 2;
+    column-gap: 10px;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: sticky;
+    animation-name:fade;
+    animation-duration:5s;
+}
+div.gal2 img{width: 100%;
+    height: 200px;
+    padding: 5px;}
+div.gal2 img:hover{
+    cursor: pointer;
+    border:1px solid red;
+}
+@keyframes fade{
+    from{opacity: 0.1;}
+    to{opacity: 1.0;}
+}
+.eff{animation-name: fade;
+animation-duration: 2s;}

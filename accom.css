@@ -1,0 +1,24 @@
+body{border:2px dotted black;
+text-align:center;
+background-color:orange;}
+header{background-color:lightgreen;
+color:white;
+text-align:center;
+border: 5px dashed white;
+padding:5px;
+top:0;}
+img{
+width:600;
+height:300px;
+position:relative;
+animation-name:slide;
+animation-duration:2s;}
+img:hover{border:5px dashed red;}
+@keyframes slide{
+from{left:-400px;}
+to{left:200px;}}
+button{color:magenta;
+padding:2px;}
+button:hover{background-color:brown;
+color:yellow;
+border:2px dotted red;}

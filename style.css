@@ -1,0 +1,45 @@
+body{border:5px solid #000000;
+border-radius:5px;
+background-repeat:no-repeat;}
+footer{
+    background-color:powderblue;border:2px;color:white;
+}
+header{background-color:black;color:white;padding:2px;
+text-align:center;marign:10px;opacity:0.7;}
+
+table,th,td{border:1px;color:blue;padding:5px;padding:15px;}
+
+.sticky{position:sticky;
+top:0;}
+
+button{color:red;text-align:center;
+font-size:15px;
+opacity:0.3;}
+
+th:hover{background-color:lightblue;
+color:red;
+opacity:0.7;
+cursor:pointer;
+border-left-style:2px solid blue;
+border-radius:3px;}
+
+img{float:left;}
+
+footer{background-color:black;color:white;padding:2px;
+text-align:center;margin:10px;opacity:0.7;}
+
+a{text-decoration:none;padding:15px;color:white;}
+
+details{display:inline;color:white;position:fixed;background-color:black;padding:2px;}
+
+nav{background-color:black;border-radius:10px;color:white;padding:15px;position:sticky;opacity:0.7;width:100%;}
+
+nav a:hover{background-color:lightblue;border-radius:15px;color:black;}
+
+ul{background-color:black;list-style-type:none;display:inline;color:white;border-radius:15px;opacity:0.5;}
+
+li{display:inline;padding:15px;color:white;}
+
+p{background-color:black;color:white;}
+
+marquee{background: linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red);}
